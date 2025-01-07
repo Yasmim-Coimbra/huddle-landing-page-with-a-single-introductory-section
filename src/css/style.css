@@ -1,0 +1,86 @@
+body {
+    background: url(../images/bg-desktop.svg) center center/cover no-repeat hsl(257, 40%, 49%);
+    min-height: 100vh;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    margin-block: auto;
+}
+
+header {
+    padding: 3% 6% 3.5%;
+}
+
+main {
+    display: flex;
+    padding: 2.3% 6% 4%;
+    gap: 7%;
+}
+
+main img {
+    width: 140%;
+}
+
+main .info {
+    max-width: 600px;
+    height: 100%;
+    margin-top: 4%;
+}
+
+main .info h2 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-family: "Poppins";
+}
+
+main .info .description {
+    margin-top: 30px;
+    font-size: 22px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+main .info button {
+    color: hsl(257, 40%, 49%);
+    font-size: 25px;
+    padding: 15px 70px;
+    border-radius: 40px;
+}
+
+main .info button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: hsl(300, 68%, 65%);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 10px 8px 0 rgba(0,0,0,0.1);
+}
+
+footer {
+    padding-inline: 6%;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 1.5%;
+}
+
+footer .socials li {
+    font-size: 25px;
+    border: 1.5px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .socials li:hover {
+    cursor: pointer;
+    color: hsl(300, 76%, 62%);
+    transition: 0.2s ease-in-out;
+}
